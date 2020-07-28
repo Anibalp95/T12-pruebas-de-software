@@ -1,0 +1,60 @@
+[2020-07-21 02:21:46] [INFORMACIÓN] Testing para funciones de la clase Usuario 
+[2020-07-21 02:21:46] [INFORMACIÓN] testValorLimiteTrueEsPosibleRetiroCLP, input:200000
+Resultado: Éxito 
+ 
+[2020-07-21 02:21:46] [INFORMACIÓN] testValorLimiteTrueEsPosibleRetiroCLP, input:1
+Resultado: Éxito 
+ 
+[2020-07-21 02:21:46] [GRAVE  ] testValorLimiteTrueEsPosibleRetiroUSD , input:100.0
+Resultado: Error (expected: <false> but was: <true>) 
+ 
+[2020-07-21 02:21:46] [GRAVE  ] testValorLimiteTrueEsPosibleRetiroUSD , input:100.0
+Resultado: Error (expected: <false> but was: <true>) 
+ 
+[2020-07-21 02:21:46] [GRAVE  ] testValorLimiteTrueEsPosibleRetiroUSD , input:1.0
+Resultado: Error (expected: <false> but was: <true>) 
+ 
+[2020-07-21 02:21:46] [INFORMACIÓN] testEmptyGetTransaccionList, input: NoneResultado: Éxito 
+ 
+[2020-07-21 02:21:46] [INFORMACIÓN] testValorLimiteFalseEsPosibleDepositoCLP , input:0
+Resultado: Éxito 
+ 
+[2020-07-21 02:21:46] [INFORMACIÓN] testValorLimiteFalseEsPosibleDepositoCLP , input:-1
+Resultado: Éxito 
+ 
+[2020-07-21 02:21:46] [INFORMACIÓN] testValorLimiteFalseEsPosibleDepositoUSD , input:1.17549435E-38
+Resultado: Éxito 
+ 
+[2020-07-21 02:21:46] [INFORMACIÓN] testValorLimiteFalseEsPosibleDepositoUSD , input:-1.0
+Resultado: Éxito 
+ 
+[2020-07-21 02:21:46] [INFORMACIÓN] testValorLimiteFalseEsPosibleRetiroCLP , input:200001
+Resultado: Éxito 
+ 
+[2020-07-21 02:21:46] [INFORMACIÓN] testValorLimiteFalseEsPosibleRetiroCLP , input:0
+Resultado: Éxito 
+ 
+[2020-07-21 02:21:46] [INFORMACIÓN] testValorLimiteFalseEsPosibleRetiroCLP , input:-1
+Resultado: Éxito 
+ 
+[2020-07-21 02:21:46] [INFORMACIÓN] testValorLimiteFalseEsPosibleRetiroCLP , input:2147483647
+Resultado: Éxito 
+ 
+[2020-07-21 02:21:46] [INFORMACIÓN] testValorLimiteFalseEsPosibleRetiroCLP , input:-2147483648
+Resultado: Éxito 
+ 
+[2020-07-21 02:21:46] [INFORMACIÓN] testValorLimiteFalseEsPosibleRetiroUSD , input:0.0
+Resultado: Éxito 
+ 
+[2020-07-21 02:21:46] [INFORMACIÓN] testValorLimiteFalseEsPosibleRetiroUSD , input:-1.0
+Resultado: Éxito 
+ 
+[2020-07-21 02:21:46] [INFORMACIÓN] testValorLimiteFalseEsPosibleRetiroUSD , input:3.4028235E38
+Resultado: Éxito 
+ 
+[2020-07-21 02:21:46] [INFORMACIÓN] testValorLimiteFalseEsPosibleRetiroUSD , input:1.4E-45
+Resultado: Éxito 
+ 
+[2020-07-21 02:21:46] [INFORMACIÓN] testNotEmptyGetTransaccionList, input: Transaccion("deposito", 100, "usd") 
+Resultado: Éxito
+ 
