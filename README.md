@@ -1,4 +1,4 @@
-# Tarea 12 pruabas de software
+# Tarea 12 pruebas de software
 
 Integrantes: Anibal Palomo 201373575-4
 
